@@ -1,8 +1,8 @@
-# これは何か？
+## これは何か？
 
 ionic-nativeのdevelopers guideに従って作成したcordova-plugin-reproのTypeScriptラッパーです。
 
-# 使い方
+## 使い方
 
 まずはcordova-plugin-reproをダウンロードします。  
 
@@ -16,6 +16,6 @@ Reproを使用したいプロジェクトのnode_modules > @ionic-native配下�
 "@ionic-native/repro": "files:node_modules/@ionic-native/repro",
 ````
 
-# バグがあったら
+## バグがあったら
 
 すいません。教えてください。
