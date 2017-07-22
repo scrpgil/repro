@@ -18,7 +18,10 @@ Reproを使用したいプロジェクトのnode_modules > @ionic-native配下�
 
 アプリ内での使い方ですがざっくり下のソースコードを参考にしてもらえれば・・・。基本的にやることは以下です。
 
-````src/pages/home/home.ts
+
+#### src/pages/home/home.ts
+
+````
 import { Component } from '@angular/core';
 import { Platform, NavController } from 'ionic-angular';
 import { Repro } from '@ionic-native/repro';
@@ -79,7 +82,9 @@ export class HomePage {
 
 ````
 
-````src/pages/home/home.html
+#### src/pages/home/home.html
+
+````
 <ion-header>
   <ion-navbar>
     <ion-title>
@@ -100,7 +105,9 @@ export class HomePage {
 </ion-content>
 ````
 
-````src/app/app.module.ts
+#### src/app/app.module.ts
+
+````
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
