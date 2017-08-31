@@ -10,10 +10,11 @@ ionic-nativeのdevelopers guideに従って作成したcordova-plugin-reproのTy
 ionic cordova plugin add cordova-plugin-repro
 ````
 
-Reproを使用したいプロジェクトのnode_modules > @ionic-native配下に置いてください。それだけで使用じたいは可能ですが、npm installすると消えるので、pacakge.jsonに以下の記述を追加するとよいです。  
+Reproを使用したいプロジェクトのnode_modules > @ionic-native配下に置いてください。  
+または、本リポジトリをnpm installしてください。  
 
 ````
-"@ionic-native/repro": "files:node_modules/@ionic-native/repro",
+npm install -S https://github.com/scrpgil/repro.git
 ````
 
 アプリ内での使い方ですがざっくり下のソースコードを参考にしてもらえれば・・・。基本的にやることは以下です。

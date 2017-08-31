@@ -109,25 +109,25 @@ var Repro = (function (_super) {
     /**
      * setStringUserProfile
      */
-    Repro.prototype.setStringUserProfile = function (userId, value) {
+    Repro.prototype.setStringUserProfile = function (key, value) {
         return;
     };
     /**
      * setIntUserProfile
      */
-    Repro.prototype.setIntUserProfile = function (userId, value) {
+    Repro.prototype.setIntUserProfile = function (key, value) {
         return;
     };
     /**
      * setDoubleUserProfile
      */
-    Repro.prototype.setDoubleUserProfile = function (userId, value) {
+    Repro.prototype.setDoubleUserProfile = function (key, value) {
         return;
     };
     /**
      * setDateUserProfile
      */
-    Repro.prototype.setDateUserProfile = function (userId, value) {
+    Repro.prototype.setDateUserProfile = function (key, value) {
         return;
     };
     /**
