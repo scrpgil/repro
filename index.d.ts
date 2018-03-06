@@ -87,15 +87,15 @@ export declare class Repro extends IonicNativePlugin {
     /**
      * trackViewContent
      */
-    trackViewContent(properties: string): Promise<any>;
+    trackViewContent(eventName: string, properties: any): Promise<any>;
     /**
      * trackSearch
      */
-    trackSearch(properties: string): Promise<any>;
+    trackSearch(properties: any): Promise<any>;
     /**
      * trackAddToCart
      */
-    trackAddToCart(contentID: string, properties: string): Promise<any>;
+    trackAddToCart(contentID: string, properties: any): Promise<any>;
     /**
      * trackAddToWishlist
      */

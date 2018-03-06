@@ -145,7 +145,7 @@ var Repro = (function (_super) {
     /**
      * trackViewContent
      */
-    Repro.prototype.trackViewContent = function (properties) {
+    Repro.prototype.trackViewContent = function (eventName, properties) {
         return;
     };
     /**
@@ -244,225 +244,225 @@ var Repro = (function (_super) {
     Repro.prototype.trackNotificationOpened = function (notificationId) {
         return;
     };
+    Repro.decorators = [
+        { type: Injectable },
+    ];
+    /** @nocollapse */
+    Repro.ctorParameters = function () { return []; };
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setup", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setLogLevel", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "startRecording", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "stopRecording", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "pauseRecording", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "resumeRecording", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, Number, Number, Number, Number]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "maskWithRect", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "orientationChangeListener", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "maskFullScreen", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "unmask", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setUserID", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setStringUserProfile", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setIntUserProfile", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setDoubleUserProfile", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setDateUserProfile", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "track", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackWithProperties", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackViewContent", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackSearch", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackAddToCart", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackAddToWishlist", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackInitiateCheckout", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackAddPaymentInfo", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [String, Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackPurchase", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackShare", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackLead", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackCompleteRegistration", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "setPushDeviceToken", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "enablePushNotification", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "showInAppMessage", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "disableInAppMessageOnActive", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "getUserID", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "getDeviceID", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], Repro.prototype, "trackNotificationOpened", null);
+    Repro = __decorate([
+        Plugin({
+            pluginName: 'Repro',
+            plugin: 'repro-cordova-plugin',
+            pluginRef: 'Repro',
+            repo: 'https://github.com/reproio/repro-cordova-plugin',
+            platforms: ['Android', 'iOS']
+        })
+    ], Repro);
     return Repro;
 }(IonicNativePlugin));
-Repro.decorators = [
-    { type: Injectable },
-];
-/** @nocollapse */
-Repro.ctorParameters = function () { return []; };
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setup", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setLogLevel", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "startRecording", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "stopRecording", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "pauseRecording", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "resumeRecording", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Number, Number, Number, Number]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "maskWithRect", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "orientationChangeListener", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "maskFullScreen", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "unmask", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setUserID", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setStringUserProfile", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setIntUserProfile", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setDoubleUserProfile", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setDateUserProfile", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "track", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackWithProperties", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackViewContent", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackSearch", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackAddToCart", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackAddToWishlist", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackInitiateCheckout", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackAddPaymentInfo", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackPurchase", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackShare", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackLead", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackCompleteRegistration", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "setPushDeviceToken", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "enablePushNotification", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "showInAppMessage", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "disableInAppMessageOnActive", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "getUserID", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "getDeviceID", null);
-__decorate([
-    Cordova(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Promise)
-], Repro.prototype, "trackNotificationOpened", null);
-Repro = __decorate([
-    Plugin({
-        pluginName: 'Repro',
-        plugin: 'repro-cordova-plugin',
-        pluginRef: 'Repro',
-        repo: 'https://github.com/reproio/repro-cordova-plugin',
-        platforms: ['Android', 'iOS']
-    })
-], Repro);
 export { Repro };
 //# sourceMappingURL=index.js.map

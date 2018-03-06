@@ -1,13 +1,13 @@
 {
   "name": "@ionic-native/repro",
-  "version": "3.12.1",
+  "version": "4.5.2",
   "description": "Ionic Native - Native plugins for ionic apps",
   "module": "index.js",
   "typings": "index.d.ts",
   "author": "ionic",
   "license": "MIT",
   "peerDependencies": {
-    "@ionic-native/core": "^3.6.0||^4.0.0",
+    "@ionic-native/core": "^4.2.0",
     "@angular/core": "*",
     "rxjs": "^5.0.1"
   },
