@@ -2,9 +2,6 @@
 
 ionic-nativeのdevelopers guideに従って作成したcordova-plugin-reproのTypeScriptラッパーです。  
 
-追記：2018/03/06  
-build前ファイルをアップしました。  
-[https://github.com/scrpgil/ionic-native/src/@ionic-native/plugins/repro](https://github.com/scrpgil/ionic-native/tree/master/src/%40ionic-native/plugins/repro)
 
 ## 使い方
 
