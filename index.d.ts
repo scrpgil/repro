@@ -75,7 +75,7 @@ export declare class Repro extends IonicNativePlugin {
     /**
      * setDateUserProfile
      */
-    setDateUserProfile(key: string, value: string): Promise<any>;
+    setDateUserProfile(key: string, value: Date): Promise<any>;
     /**
      * track
      */

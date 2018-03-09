@@ -336,7 +336,7 @@ var Repro = (function (_super) {
     __decorate([
         Cordova(),
         __metadata("design:type", Function),
-        __metadata("design:paramtypes", [String, String]),
+        __metadata("design:paramtypes", [String, Date]),
         __metadata("design:returntype", Promise)
     ], Repro.prototype, "setDateUserProfile", null);
     __decorate([
