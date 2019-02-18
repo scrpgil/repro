@@ -1,7 +1,7 @@
 {
   "name": "ionic-repro-ts-wrapper",
-  "version": "4.20.0",
-  "description": "Ionic Native - Native plugins for ionic apps",
+  "version": "0.0.1",
+  "description": "custom ionic-native wrapper for repro",
   "module": "index.js",
   "typings": "index.d.ts",
   "author": "scrpgil",
