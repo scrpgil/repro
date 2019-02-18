@@ -9,7 +9,7 @@
   "peerDependencies": {
     "@ionic-native/core": "^4.11.0",
     "@angular/core": "*",
-    "rxjs": "^5.0.1"
+    "rxjs": "^5.5.11"
   },
   "repository": {
     "type": "git",
