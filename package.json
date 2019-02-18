@@ -1,6 +1,6 @@
 {
   "name": "@ionic-native/repro",
-  "version": "4.5.2",
+  "version": "4.20.0",
   "description": "Ionic Native - Native plugins for ionic apps",
   "module": "index.js",
   "typings": "index.d.ts",
