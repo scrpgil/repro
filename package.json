@@ -1,10 +1,10 @@
 {
-  "name": "@ionic-native/repro",
+  "name": "ionic-repro-ts-wrapper",
   "version": "4.20.0",
   "description": "Ionic Native - Native plugins for ionic apps",
   "module": "index.js",
   "typings": "index.d.ts",
-  "author": "ionic",
+  "author": "scrpgil",
   "license": "MIT",
   "peerDependencies": {
     "@ionic-native/core": "^4.11.0",
@@ -13,6 +13,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scrpgil/repro.git"
+    "url": "https://github.com/scrpgil/repro.git#npm-publish"
   }
 }
