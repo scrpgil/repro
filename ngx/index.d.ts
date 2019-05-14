@@ -80,7 +80,7 @@ export declare class Repro extends IonicNativePlugin {
     /**
      * setDateUserProfile
      */
-    setDateUserProfile(key: string, value: string): Promise<any>;
+    setDateUserProfile(key: string, value: Date): Promise<any>;
     /**
      * track
      */
@@ -92,11 +92,11 @@ export declare class Repro extends IonicNativePlugin {
     /**
      * trackViewContent
      */
-    trackViewContent(properties: string): Promise<any>;
+    trackViewContent(name: string, properties: {}): Promise<any>;
     /**
      * trackSearch
      */
-    trackSearch(properties: string): Promise<any>;
+    trackSearch(properties: {}): Promise<any>;
     /**
      * trackAddToCart
      */
