@@ -20,7 +20,7 @@ import { IonicNativePlugin } from "@ionic-native/core";
  *
  * ```
  */
-export declare class ReproOriginal extends IonicNativePlugin {
+export declare class Repro extends IonicNativePlugin {
     /**
      * Setup Repro
      */
@@ -158,5 +158,3 @@ export declare class ReproOriginal extends IonicNativePlugin {
      */
     trackNotificationOpened(notificationId: any): Promise<any>;
 }
-
-export declare const Repro: ReproOriginal;
